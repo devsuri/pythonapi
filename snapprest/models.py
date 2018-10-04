@@ -8,4 +8,4 @@ class snappide(models.Model):
     switch=models.BooleanField(default=True)
 
     def __str__(self):
-        return self.paragraph
+        return "{}".format(self.paragraph)
